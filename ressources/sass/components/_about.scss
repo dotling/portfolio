@@ -1,0 +1,17 @@
+.about {
+    position: relative;
+
+    .highlight {
+        position: absolute;
+width: 50%;
+height: 400px;
+background: url("../img/header-blue.jpg") no-repeat center bottom fixed;
+background-size: auto auto;
+background-size: cover;
+background-color: red;
+border-radius: 50px;
+left: 0;
+right: 0;
+top:-12rem;
+    }
+}

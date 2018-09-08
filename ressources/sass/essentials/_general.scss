@@ -1,0 +1,30 @@
+html, body {
+    max-width: 100%;
+}
+
+html {
+    font-size: 10px;
+    width: 100%;
+}
+
+body {
+    background-color: #eee;
+}
+
+section {
+    margin-bottom: $margin-bigger;
+}
+
+.text {
+    &__center {
+        text-align: center;
+    }
+
+    &__left {
+        text-align: left;
+    }
+
+    &__right {
+        text-align: right;
+    }
+}

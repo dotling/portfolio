@@ -1,0 +1,24 @@
+$accent-font: 'Reem Kufi', sans-serif;
+$basic-font: 'Titillium Web', sans-serif;
+
+$h1-font-size: 6rem;
+$h2-font-size: 3rem;
+
+h1 {
+    font-size: $h1-font-size;
+    color: $white;
+
+    font-family: $accent-font;
+}
+
+h2 {
+    font-size: $h2-font-size;
+    color: $white-blue;
+
+    font-family: $basic-font;
+}
+
+a {
+    text-decoration: none;
+    font-family: $accent-font;
+}
