@@ -5,14 +5,14 @@ html, body {
 html {
     font-size: 10px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body {
     background-color: #eee;
-}
-
-section {
-    margin-bottom: $margin-bigger;
+    background: url("../img/header-blue.jpg") no-repeat center bottom fixed;
+    background-size: auto auto;
+    background-size: cover;
 }
 
 .text {
@@ -27,4 +27,11 @@ section {
     &__right {
         text-align: right;
     }
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: $margin-big;
+    max-width: 100px;
+    border-bottom: 2px solid $gold;
 }

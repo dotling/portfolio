@@ -4,14 +4,16 @@ $basic-font: 'Titillium Web', sans-serif;
 $h1-font-size: 6rem;
 $h2-font-size: 3rem;
 
-h1 {
+h1,
+.lookalike__h1 {
     font-size: $h1-font-size;
     color: $white;
 
     font-family: $accent-font;
 }
 
-h2 {
+h2,
+.lookalike__h2 {
     font-size: $h2-font-size;
     color: $white-blue;
 
@@ -21,4 +23,16 @@ h2 {
 a {
     text-decoration: none;
     font-family: $accent-font;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.typo__light {
+    font-weight: 300;
+}
+
+.color__gold {
+    color: wheat;
 }
