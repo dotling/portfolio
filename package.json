@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "author": "Niklas Döttling <doettling@t-online.de>",
+  "scripts": {
+    "build-css": "sass --watch ressources/sass:ressources/css"
+  },
+  "devDependencies": {
+    "animate-sass": "^0.8.2"
+  }
+}
