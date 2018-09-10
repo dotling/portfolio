@@ -5,7 +5,7 @@
   "scripts": {
     "build-css": "sass --watch ressources/sass:ressources/css"
   },
-  "devDependencies": {
+  "Dependencies": {
     "animate-sass": "^0.8.2"
   }
 }
