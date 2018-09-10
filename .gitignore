@@ -1,3 +1,5 @@
 node_modules/
 .idea/portfolio.iml
 .idea/workspace.xml
+ressources/.sass-cache/
+psd/
