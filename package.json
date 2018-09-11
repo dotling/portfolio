@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "author": "Niklas Döttling <doettling@t-online.de>",
+  "author": "Niklas Doettling <doettling@t-online.de>",
   "scripts": {
     "build-css": "sass --watch ressources/sass:ressources/css"
   },

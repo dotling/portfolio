@@ -18,7 +18,7 @@
     </head>
     <body>
         <aside></aside>
-        <main>
+        <main role="main">
             <section class="header">
                 <div class="header__content wrap animated fadeIn delay-05s">
                     <h1>Frontend</h1>
@@ -75,25 +75,38 @@
                     <div class="shadow"></div>
                 </div>
             </section>
-            <section>
+            <section id="work" class="work">
                 <header>
-                    <h2 class="text__center lookalike__h1 color__gold">Referenzen</h2>
+                    <h2 class="text__center lookalike__h1 color__gold">Work</h2>
                     <hr>
-                    <p class="lookalike__h2 text__center typo__light">Eine Auswahl von Referenzen kann hier bestaunt werden.</p>
+                    <p class="lookalike__h2 text__center typo__light">Eine Auswahl von arbeiten kann hier bestaunt werden.</p>
                 </header>
-                <div class="grid__4">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div class="work__content">
+                    <div class="work__content--item"></div>
+                    <div class="work__content--item"></div>
+                    <div class="work__content--item"></div>
+                    <div class="work__content--item"></div>
+                    <div class="work__content--item"></div>
+                    <div class="work__content--item"></div>
+                    <div class="work__content--item"></div>
+                    <div class="work__content--item"></div>
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <div class="footer__content wrap">
+                <div class="logo"></div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="btn border-hover" data-name="start">start</a></li>
+                        <li><a href="#" class="btn border-hover" data-name="about">about</a></li>
+                        <li><a href="#" class="btn border-hover" data-name="work">work</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="to-top"><i class="fas fa-chevron-circle-up"></i></div>
+            <div class="copyright">created with <i class="far fa-heart"></i> by Niklas Döttling</div>
+        </footer>
         <script src="ressources/js/owl.carousel.min.js" type="text/javascript"></script>
         <script src="ressources/js/custom.js" type="text/javascript"></script>
     </body>

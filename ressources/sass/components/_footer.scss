@@ -1,0 +1,17 @@
+.footer {
+  background-color: $black-blue;
+  min-height: 200px;
+
+  .to-top {
+    display: none;
+
+    position: fixed;
+
+    right: 15px;
+    bottom: 15px;
+
+    font-size: 3rem;
+    opacity: 0.5;
+    color: $dark-blue;
+  }
+}

@@ -1,3 +1,4 @@
+// BUTTON
 $( document ).ready(function() {
     const borderHover = $('.border-hover'); 
     
@@ -5,6 +6,29 @@ $( document ).ready(function() {
         $(this).toggleClass("border-hover--click");
     });
 });
+
+// SCROLL TO TOP
+$('.to-top').click(function(){
+    $('.to-top').animate({
+        pageYOffset: 0
+    }, 2000);
+});
+
+$(window).scroll(function() {
+    const scroll_pos = window.pageYOffset;
+    const scroll_pos_check = 500;
+
+    if(scroll_pos > scroll_pos_check) {
+        $('.to-top').css('display', 'block');
+    }
+
+    if(scroll_pos < scroll_pos_check) {
+        $('.to-top').css('display', 'none')
+    }
+
+    console.log(scroll_pos);
+});
+
 
 $('.owl-carousel').owlCarousel({
     loop: true,
@@ -31,18 +55,4 @@ $('.owl-carousel').owlCarousel({
         items: 5
         }
     }
-})
-
-$(window).scroll(function() {
-var top_of_element = $(".about__contet").offset().top;
-var bottom_of_element = $(".about__content").offset().top + $(".about__content").outerHeight();
-var bottom_of_screen = $(window).scrollTop() + window.innerHeight;
-var top_of_screen = $(window).scrollTop();
-
-if((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
-    $(".about__content").addClass("fadeIn animated delay-05s");
-}
-else {
-    $(".about__content").removeClass("fadeIn animated delay-05s");
-}
 });
